@@ -1,5 +1,36 @@
- @media only screen and(min-width:992px){
-     .container{
-         width: 960px;
-     }
+  .categories-wrapper{
+      overflow-x: auto;
+      display: flex;
+  }
+ 
+ 
+ .category{
+     color: blue;
+     background-color: lightgray;
+     text-decoration: none;
+     padding: 10px 20px;
+     border-radius: 20px;
+     cursor: pointer;
  }
+
+
+ .box1{
+     width: 30%;
+     display: flex;
+ }
+
+ .box{
+     width: 200px;
+     height: 150px;
+     background-color: lightseagreen;
+     position: relative;
+ }
+
+  .icon{
+      width: fit-content;
+      background-color: lightskyblue;
+    
+  }
+
+ 
+
